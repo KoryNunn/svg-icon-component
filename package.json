@@ -1,0 +1,21 @@
+{
+  "name": "svg-icon-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watchExample": "watchify example/index.js -o example/index.browser.js -d",
+    "buildExample": "browserify -g uglifyify example/index.js --noparse clone > example/index.browser.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cpjax": "^1.1.1",
+    "fastn": "^2.6.3"
+  },
+  "devDependencies": {
+    "browserify": "^11.2.0",
+    "uglifyify": "^3.0.1"
+  }
+}
