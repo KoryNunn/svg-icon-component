@@ -8,6 +8,7 @@ Built with `fastn.js`
 
 ## Initialise
 
+```javascript
 var createIcon = require('svg-icon-component')({
 
         // Function to resolve the url location of an icon.
@@ -18,10 +19,11 @@ var createIcon = require('svg-icon-component')({
         }
 
     });
+```
 
 ## Settings
 
-```
+```javascript
 {
     name: String. iconName passed to resolvePath.
 }
@@ -29,7 +31,7 @@ var createIcon = require('svg-icon-component')({
 
 ## Standalone
 
-```
+```javascript
 // Create the icon
 var icon = createIcon({
         name: 'tick'
@@ -41,7 +43,7 @@ document.body.appendChild(icon.element);
 
 ## Fastn component
 
-```
+```javascript
 var fastn = require('fastn')({
     ... other components...
     icon: require('svg-icon-component/iconComponent')({
@@ -58,7 +60,7 @@ icon will attempt to use the `_generic` component provided by fastn.
 
 ## Inserting
 
-```
+```javascript
 someDomNode.appendChild(icon.element);
 ```
 
@@ -66,7 +68,7 @@ someDomNode.appendChild(icon.element);
 
 ### Name
 
-```
+```javascript
 // retrieve value
 icon.name(); // returns value of name
 
