@@ -1,7 +1,7 @@
 {
   "name": "svg-icon-component",
   "version": "1.0.1",
-  "description": "",
+  "description": "A simple icon component",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,5 +17,17 @@
   "devDependencies": {
     "browserify": "^11.2.0",
     "uglifyify": "^3.0.1"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KoryNunn/svg-icon-component.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/KoryNunn/svg-icon-component/issues"
+  },
+  "homepage": "https://github.com/KoryNunn/svg-icon-component#readme"
 }
